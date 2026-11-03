@@ -305,7 +305,10 @@ function Contact() {
   const [sent, setSent] = useState(false);
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!e.currentTarget.checkValidity()) return e.currentTarget.reportValidity();
+    if (!e.currentTarget.checkValidity()) {
+      e.currentTarget.reportValidity();
+      return;
+    }
     setSent(true);
     e.currentTarget.reset();
   };
