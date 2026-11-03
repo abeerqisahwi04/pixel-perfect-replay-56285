@@ -170,6 +170,6 @@ section[id] { scroll-margin-top: 5rem; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
 
 html[dir="rtl"] body { font-family: "IBM Plex Sans Arabic", var(--font-sans); }
-html[dir="rtl"] .font-display { font-family: "IBM Plex Sans Arabic", var(--font-sans); font-style: normal; font-weight: 700; color: var(--secondary); }
+html[dir="rtl"] .font-display { font-family: "IBM Plex Sans Arabic", var(--font-sans); font-style: normal; font-weight: 800; }
 html[dir="rtl"] .eyebrow { letter-spacing: 0; }
 html[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
