@@ -51,6 +51,7 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+  --color-navy: var(--navy);
   --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Instrument Serif", ui-serif, Georgia, serif;
   --shadow-soft: var(--shadow-soft);
@@ -68,7 +69,8 @@
 :root {
   --radius: 1rem;
   --background: oklch(0.967 0.012 67);      /* cream #F9F2EB */
-  --foreground: oklch(0.29 0.05 195);
+  --foreground: oklch(0.29 0.07 262);     /* navy #1B2F57 */
+  --navy: oklch(0.29 0.07 262);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.29 0.05 195);
   --popover: oklch(1 0 0);
@@ -78,7 +80,7 @@
   --secondary: oklch(0.52 0.085 200);       /* teal #0B7C81 */
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.91 0.02 170);            /* mint #D4E6E1 */
-  --muted-foreground: oklch(0.45 0.035 195);
+  --muted-foreground: oklch(0.42 0.04 220);
   --accent: oklch(0.91 0.02 170);
   --accent-foreground: oklch(0.42 0.07 195);
   --destructive: oklch(0.577 0.245 27.325);
@@ -166,3 +168,8 @@ section[id] { scroll-margin-top: 5rem; }
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
 .reveal.is-visible { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
+
+html[dir="rtl"] body { font-family: "IBM Plex Sans Arabic", var(--font-sans); }
+html[dir="rtl"] .font-display { font-family: "IBM Plex Sans Arabic", var(--font-sans); font-style: normal; font-weight: 700; color: var(--secondary); }
+html[dir="rtl"] .eyebrow { letter-spacing: 0; }
+html[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
