@@ -82,6 +82,157 @@ export const en = {
     mT: "Mission", m: "Help healthcare institutions extend trusted nursing care into patients' homes through organized, accessible, and digitally supported services.",
     wT: "Where We Are", w: "HomeNurse is currently refining its product concept, preparing to validate its operational model with healthcare institutions in Jordan, and defining the scope of a focused pilot.",
   },
+  difference: {
+  "eyebrow": "05 — Our Difference",
+  "title": "Institution-led, not marketplace-led.",
+  "desc": "HomeNurse is designed around the healthcare institution’s existing brand, workforce, responsibilities, and service workflow.",
+  "columns": [
+    {
+      "title": "Open Marketplace Model",
+      "items": [
+        "Connects patients with individual service providers.",
+        "May operate separately from the institution’s workflow.",
+        "The service may be delivered outside the institution’s brand.",
+        "Staffing and service delivery depend on external providers."
+      ]
+    },
+    {
+      "title": "HomeNurse Model",
+      "items": [
+        "Works directly with healthcare institutions.",
+        "Uses the institution’s existing qualified nursing staff.",
+        "Operates under the institution’s brand.",
+        "Supports the institution’s operational workflow.",
+        "Keeps clinical responsibility with the healthcare institution.",
+        "Provides coordination, documentation, follow-up, and visibility."
+      ]
+    }
+  ]
+},
+  model: {
+  "eyebrow": "07 — Business Model",
+  "title": "A Scalable B2B SaaS Model",
+  "paragraphs": [
+    "HomeNurse follows a proposed B2B SaaS model for healthcare institutions. The revenue model combines an initial onboarding fee, a recurring institutional subscription, and optional paid services for customization, integrations, reporting, and support.",
+    "Patients pay the healthcare institution directly for care services, while the institution pays for using the HomeNurse platform. Packages and pricing will be refined and validated with healthcare institutions during the pilot stage."
+  ],
+  "cards": [
+    [
+      "Initial Onboarding",
+      "Workflow configuration, account setup, permissions, and implementation support."
+    ],
+    [
+      "Institutional Subscription",
+      "A recurring subscription for continued access to the HomeNurse platform."
+    ],
+    [
+      "Optional Services",
+      "Customization, integrations, reporting, additional support, and future platform services."
+    ]
+  ]
+},
+  pilot: {
+  "eyebrow": "08 — Focused Pilot",
+  "title": "Start Focused. Learn Quickly. Scale Responsibly.",
+  "desc": "HomeNurse plans to begin with one healthcare institution, one defined nursing service, and one controlled operational workflow.",
+  "cards": [
+    [
+      "Discovery",
+      "Understand the institution’s workflow, responsibilities, and operational readiness."
+    ],
+    [
+      "Configuration",
+      "Define the service, users, roles, scheduling process, documentation, and escalation rules."
+    ],
+    [
+      "Controlled Pilot",
+      "Run one agreed workflow with a limited operational scope."
+    ],
+    [
+      "Evaluation",
+      "Review adoption, workflow performance, documentation completion, support requirements, and readiness for the next phase."
+    ]
+  ]
+},
+  stage: {
+  "eyebrow": "09 — Current Stage",
+  "title": "Current Stage: Solution Validation and Pilot Preparation",
+  "columns": [
+    {
+      "title": "Defined",
+      "items": [
+        "Core operational problem",
+        "B2B direction",
+        "Main user roles",
+        "Service workflow",
+        "MVP scope",
+        "Focused pilot approach"
+      ]
+    },
+    {
+      "title": "Current Focus",
+      "items": [
+        "Refining the product concept",
+        "Preparing stakeholder validation",
+        "Defining the first pilot scope",
+        "Developing the product experience"
+      ]
+    },
+    {
+      "title": "Next",
+      "items": [
+        "Confirm a healthcare pilot partner",
+        "Configure a focused MVP",
+        "Run a controlled pilot",
+        "Measure, learn, and improve"
+      ]
+    }
+  ]
+},
+  team: {
+  "eyebrow": "11 — Our Team",
+  "title": "The Founding Team",
+  "desc": "Built by a founding team combining product development and software engineering.",
+  "members": [
+    [
+      "A",
+      "Abeer",
+      "Co-founder & Product Lead",
+      "Software Engineer"
+    ],
+    [
+      "Z",
+      "Zaid",
+      "Co-founder",
+      "Software Engineer"
+    ]
+  ]
+},
+  ask: {
+  "eyebrow": "12 — The Ask",
+  "title": "We are looking for the right partners to validate and build the next stage.",
+  "cards": [
+    [
+      "Healthcare Pilot Partner",
+      "A healthcare institution ready to help validate one focused home nursing workflow."
+    ],
+    [
+      "Strategic Guidance",
+      "Healthcare and business expertise to strengthen the product, pilot, and go-to-market approach."
+    ],
+    [
+      "Early-Stage Support",
+      "Connections and conversations with investors and ecosystem partners who understand HealthTech and care delivery."
+    ]
+  ],
+  "closing": "HomeNurse is starting with a focused operational problem and a clear path to validation."
+},
+  closing: {
+  "title": "Organized care, extending beyond the facility.",
+  "desc": "One institution. One service. One focused pilot.",
+  "home": "Return to the Beginning",
+  "workflow": "View the Workflow"
+},
   footer: { city: "Amman, Jordan", rights: "All rights reserved.", line: "B2B HealthTech for organized home nursing operations." },
 };
 
@@ -140,7 +291,7 @@ export const ar: Dict = {
   },
   serve: {
     eyebrow: "٠٤ — من نخدم", t1: "صُمّمت", t2: "للمؤسسات", t3: "التي تهتم بالرعاية.",
-    desc: "تعمل HomeNurse خلف علامتك التجارية: يتعامل المرضى مع مؤسستك، وتدير أنت الخدمة عبر منصتنا.",
+    desc: "تعمل HomeNurse خلف علامتك التجارية؛ يتعامل المرضى مع مؤسستك، بينما تدير المؤسسة الخدمة عبر المنصة.",
     cards: [
       ["المستشفيات", "امتداد للخدمات التمريضية بعد الخروج من المستشفى، مع متابعة منزلية منظّمة عبر الكوادر الحالية."],
       ["العيادات الخاصة", "تقديم زيارات تمريض منزلية كامتداد للخدمات السريرية."],
@@ -167,6 +318,157 @@ export const ar: Dict = {
     mT: "رسالتنا", m: "مساعدة المؤسسات الصحية على إيصال رعاية تمريضية موثوقة إلى منازل المرضى، من خلال خدمات منظّمة وميسّرة ومدعومة رقمياً.",
     wT: "أين نحن الآن", w: "تعمل HomeNurse حاليًا على تطوير تصور المنتج، والاستعداد للتحقق من النموذج التشغيلي مع مؤسسات صحية في الأردن، وتحديد نطاق تجربة أولية مركزة.",
   },
+  difference: {
+  "eyebrow": "٠٥ — ما يميزنا",
+  "title": "تقودها المؤسسة، وليست سوقًا مفتوحًا.",
+  "desc": "صُممت HomeNurse حول العلامة التجارية للمؤسسة الصحية، وكوادرها، ومسؤولياتها، وآلية تقديم خدماتها.",
+  "columns": [
+    {
+      "title": "نموذج السوق المفتوح",
+      "items": [
+        "يربط المرضى بمقدمي خدمة أفراد.",
+        "قد يعمل خارج آلية عمل المؤسسة الصحية.",
+        "قد تُقدّم الخدمة خارج العلامة التجارية للمؤسسة.",
+        "يعتمد تنفيذ الخدمة على مقدمي خدمات خارجيين."
+      ]
+    },
+    {
+      "title": "نموذج HomeNurse",
+      "items": [
+        "يعمل مباشرة مع المؤسسات الصحية.",
+        "يعتمد على الكادر التمريضي المؤهل الموجود لدى المؤسسة.",
+        "يعمل تحت العلامة التجارية للمؤسسة.",
+        "يدعم آلية العمل التشغيلية الخاصة بالمؤسسة.",
+        "تبقى المسؤولية السريرية لدى المؤسسة الصحية.",
+        "يوفّر التنسيق والتوثيق والمتابعة والرؤية التشغيلية."
+      ]
+    }
+  ]
+},
+  model: {
+  "eyebrow": "٠٧ — نموذج العمل",
+  "title": "نموذج عمل مؤسسي قابل للتوسع",
+  "paragraphs": [
+    "تعتمد HomeNurse نموذج اشتراك برمجي موجّهًا للمؤسسات الصحية، ويتكون نموذج الإيرادات المقترح من رسوم إعداد أولية، واشتراك مؤسسي متكرر، وخدمات إضافية اختيارية للتخصيص والتكاملات والتقارير والدعم.",
+    "يدفع المرضى مقابل خدمات الرعاية للمؤسسة الصحية مباشرة، بينما تدفع المؤسسة مقابل استخدام منصة HomeNurse. وسيتم تطوير الباقات والأسعار والتحقق منها بالتعاون مع المؤسسات الصحية خلال مرحلة التجربة الأولية."
+  ],
+  "cards": [
+    [
+      "الإعداد الأولي",
+      "تهيئة مسار العمل، وإعداد الحسابات والصلاحيات، ودعم بدء الاستخدام."
+    ],
+    [
+      "الاشتراك المؤسسي",
+      "اشتراك متكرر مقابل استمرار استخدام المؤسسة لمنصة HomeNurse."
+    ],
+    [
+      "الخدمات الاختيارية",
+      "التخصيص والتكاملات والتقارير والدعم الإضافي والخدمات المستقبلية."
+    ]
+  ]
+},
+  pilot: {
+  "eyebrow": "٠٨ — التجربة المركزة",
+  "title": "نبدأ بتركيز. نتعلّم بسرعة. ونتوسع بمسؤولية.",
+  "desc": "تخطط HomeNurse للبدء مع مؤسسة صحية واحدة، وخدمة تمريضية محددة، ومسار عمل تشغيلي مضبوط.",
+  "cards": [
+    [
+      "الاستكشاف",
+      "فهم آلية عمل المؤسسة، والمسؤوليات، والاستعداد التشغيلي."
+    ],
+    [
+      "الإعداد",
+      "تحديد الخدمة والمستخدمين والصلاحيات والجدولة والتوثيق وقواعد التصعيد."
+    ],
+    [
+      "التجربة المحدودة",
+      "تشغيل مسار عمل واحد متفق عليه ضمن نطاق تشغيلي محدود."
+    ],
+    [
+      "التقييم",
+      "مراجعة الاستخدام وأداء المسار واكتمال التوثيق ومتطلبات الدعم والاستعداد للمرحلة التالية."
+    ]
+  ]
+},
+  stage: {
+  "eyebrow": "٠٩ — المرحلة الحالية",
+  "title": "المرحلة الحالية: التحقق من الحل والاستعداد للتجربة الأولية",
+  "columns": [
+    {
+      "title": "تم تحديده",
+      "items": [
+        "المشكلة التشغيلية الأساسية",
+        "التوجه المؤسسي",
+        "أدوار المستخدمين الرئيسية",
+        "رحلة الخدمة",
+        "نطاق النسخة الأولية",
+        "منهجية التجربة المحدودة"
+      ]
+    },
+    {
+      "title": "التركيز الحالي",
+      "items": [
+        "تطوير تصور المنتج",
+        "الاستعداد للتحقق مع الجهات المعنية",
+        "تحديد نطاق التجربة الأولى",
+        "تطوير تجربة المنصة"
+      ]
+    },
+    {
+      "title": "الخطوة التالية",
+      "items": [
+        "تأكيد شريك صحي للتجربة",
+        "إعداد نسخة أولية مركزة",
+        "تنفيذ تجربة محدودة",
+        "القياس والتعلّم والتحسين"
+      ]
+    }
+  ]
+},
+  team: {
+  "eyebrow": "١١ — فريقنا",
+  "title": "الفريق المؤسس",
+  "desc": "يقود المشروع فريق مؤسس يجمع بين تطوير المنتجات وهندسة البرمجيات.",
+  "members": [
+    [
+      "ع",
+      "عبير",
+      "شريكة مؤسسة ومسؤولة تطوير المنتج",
+      "مهندسة برمجيات"
+    ],
+    [
+      "ز",
+      "زيد",
+      "شريك مؤسس",
+      "مهندس برمجيات"
+    ]
+  ]
+},
+  ask: {
+  "eyebrow": "١٢ — ما الذي نبحث عنه",
+  "title": "نبحث عن الشركاء المناسبين للتحقق من المرحلة القادمة وبنائها.",
+  "cards": [
+    [
+      "شريك صحي للتجربة",
+      "مؤسسة صحية مستعدة للمساعدة في التحقق من مسار واحد ومحدد لخدمة التمريض المنزلي."
+    ],
+    [
+      "توجيه استراتيجي",
+      "خبرات صحية وتجارية تساعد في تطوير المنتج والتجربة وخطة دخول السوق."
+    ],
+    [
+      "دعم المرحلة المبكرة",
+      "بناء علاقات وبدء محادثات مع مستثمرين وشركاء يفهمون قطاع التكنولوجيا الصحية وتقديم الرعاية."
+    ]
+  ],
+  "closing": "تبدأ HomeNurse من مشكلة تشغيلية محددة، وبمسار واضح للتحقق والتطوير."
+},
+  closing: {
+  "title": "رعاية منظّمة، تمتد إلى خارج المؤسسة الصحية.",
+  "desc": "مؤسسة واحدة. خدمة واحدة. تجربة أولية مركزة.",
+  "home": "العودة إلى البداية",
+  "workflow": "مشاهدة آلية العمل"
+},
   footer: { city: "عمّان، الأردن", rights: "جميع الحقوق محفوظة.", line: "تقنية صحية لإدارة عمليات التمريض المنزلي بشكل منظّم." },
 };
 
