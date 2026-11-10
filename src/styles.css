@@ -173,3 +173,14 @@ html[dir="rtl"] body { font-family: "IBM Plex Sans Arabic", var(--font-sans); }
 html[dir="rtl"] .font-display { font-family: "IBM Plex Sans Arabic", var(--font-sans); font-style: normal; font-weight: 800; }
 html[dir="rtl"] .eyebrow { letter-spacing: 0; }
 html[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
+
+@media (max-width: 1023px) {
+  .workflow-step { padding-inline-start: 5rem; }
+  .workflow-step > span { position: absolute; inset-inline-start: 0; top: 0; }
+  .workflow-step:not(:last-child)::after { content: ""; position: absolute; inset-inline-start: 1.75rem; top: 4rem; bottom: -1.5rem; width: 1px; background: var(--border); }
+  .workflow-step h3 { margin-top: 0; }
+}
+html[dir="rtl"] h1 { line-height: 1.3; }
+html[dir="rtl"] h2 { line-height: 1.4; }
+@media (max-width: 390px) { h1 { font-size: 2.65rem; } }
+@media (prefers-reduced-motion: reduce) { .animate-floaty, .animate-rise { animation: none; } }
