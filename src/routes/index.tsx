@@ -178,7 +178,7 @@ function Opportunity() {
         </div>
         <div className="mt-16 grid gap-px overflow-hidden rounded-3xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {c.cards.map(([title, d], i) => {
-            const Icon = icons[i];
+            const Icon = icons[i] ?? Inbox;
             return (
               <div key={title} className="reveal bg-background p-8" style={{ transitionDelay: `${i * 80}ms` }}>
                 <Icon className="h-6 w-6 text-secondary" />
@@ -206,7 +206,7 @@ function Solution() {
           <div className="reveal"><DashboardMockup /></div>
           <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-2">
             {s.feats.map((f, i) => {
-              const Icon = icons[i];
+              const Icon = icons[i] ?? Layers;
               return (
                 <li key={f} className="reveal flex items-center gap-4 rounded-2xl border border-primary-foreground/15 bg-primary-foreground/5 p-4" style={{ transitionDelay: `${i * 60}ms` }}>
                   <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-muted text-primary"><Icon className="h-5 w-5" /></span>
@@ -254,7 +254,7 @@ function WhoWeServe() {
         <SectionHead eyebrow={s.eyebrow} title={<span id="serve-h">{s.t1} <Serif>{s.t2}</Serif> {s.t3}</span>}>{s.desc}</SectionHead>
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {s.cards.map(([title, d], i) => {
-            const Icon = icons[i];
+            const Icon = icons[i] ?? Hospital;
             return (
               <article key={title} className="reveal group rounded-3xl bg-card p-8 transition hover:-translate-y-1 hover:shadow-soft" style={{ transitionDelay: `${i * 80}ms` }}>
                 <Icon className="h-8 w-8 text-secondary transition group-hover:text-primary" />

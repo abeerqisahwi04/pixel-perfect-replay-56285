@@ -10,17 +10,17 @@ export function DashboardMockup() {
   return (
     <div className="relative pb-8 sm:pb-12">
       <div className="overflow-hidden rounded-2xl border border-border bg-card text-card-foreground shadow-soft">
-        <div className="flex items-center gap-2 border-b border-border px-4 py-3">
+        <div className="flex flex-wrap items-center gap-2 border-b border-border px-4 py-3">
           <span className="h-2.5 w-2.5 rounded-full bg-muted" />
           <span className="h-2.5 w-2.5 rounded-full bg-muted" />
           <span className="h-2.5 w-2.5 rounded-full bg-muted" />
           <span className="ms-3 truncate text-[11px] font-semibold text-muted-foreground">{d.org}</span>
-          <span className="ms-auto shrink-0 rounded-full bg-muted px-2 py-0.5 text-[10px] font-bold text-primary">{d.concept}</span>
+          <span className="w-full rounded-full bg-muted px-2 py-1 text-center text-xs font-bold text-primary">{d.concept}</span>
         </div>
         <div className="grid grid-cols-[3rem_1fr] sm:grid-cols-[9.5rem_1fr]">
           <aside className="space-y-1 border-e border-border bg-background/60 p-2 sm:p-3">
             {d.menu.map((label, i) => {
-              const I = icons[i];
+              const I = icons[i] ?? Home;
               return (
                 <div key={label} className={`flex items-center gap-2 rounded-lg px-2 py-2 text-xs font-semibold ${i === 0 ? "bg-primary text-primary-foreground" : "text-muted-foreground"}`}>
                   <I className="h-3.5 w-3.5 shrink-0" />
