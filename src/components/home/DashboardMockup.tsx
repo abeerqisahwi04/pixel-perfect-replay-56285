@@ -33,7 +33,7 @@ export function DashboardMockup() {
             <div className="grid grid-cols-3 gap-2 sm:gap-3">
               {d.stats.map(([k, v]) => (
                 <div key={k} className="rounded-xl bg-background p-2.5 sm:p-3">
-                  <p className="truncate text-[10px] font-semibold text-muted-foreground">{k}</p>
+                  <p className="min-h-8 text-xs font-semibold text-muted-foreground">{k}</p>
                   <p className="mt-1 text-lg font-extrabold text-primary sm:text-2xl">{v}</p>
                 </div>
               ))}
@@ -44,7 +44,7 @@ export function DashboardMockup() {
                 <div key={time} className="flex items-center gap-3 px-3 py-2.5 text-xs">
                   <span className="w-10 shrink-0 font-bold text-primary" dir="ltr">{time}</span>
                   <div className="min-w-0 flex-1">
-                    <p className="truncate font-semibold">{service}</p>
+                    <p className="font-semibold">{service}</p>
                     <p className="truncate text-[10px] text-muted-foreground">{who} · {req}</p>
                   </div>
                   <span className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-bold ${i === 0 ? "bg-secondary text-secondary-foreground" : i === 3 ? "bg-navy text-primary-foreground" : "bg-muted text-primary"}`}>{status}</span>
