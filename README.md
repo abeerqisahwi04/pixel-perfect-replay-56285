@@ -1,26 +1,20 @@
-# Pixel Perfect Replay
+# HomeNurse
 
-Implement exactly the screenshot and nothing else
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://pixel-perfect-replay-56285.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/1f91a13d-c842-4db6-bb2e-abc3528c3117).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+HomeNurse helps healthcare providers coordinate and manage home nursing services. This website presents the service, its workflow, and the value it offers to providers and patients.
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Install the project dependencies and start the local development server:
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+```bash
+bun install
+bun run dev
 ```
+
+Create a production build with:
+
+```bash
+bun run build
+```
+
+The site is configured for deployment to Netlify through the official TanStack Start Vite integration.
